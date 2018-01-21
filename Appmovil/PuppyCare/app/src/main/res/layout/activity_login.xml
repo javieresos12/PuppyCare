@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.bucompany.puppycare.LoginActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_height="100dp"
+                android:layout_width="match_parent">
+
+            </Space>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="@color/negro"
+                android:text="Inicie Sesion"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText
+                android:id="@+id/etUserLogin"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/edittext_bg"
+                android:layout_gravity="center"
+                android:textColorHint="@color/negro"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:hint="Ingrese Usuario" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50px" />
+
+            <EditText
+                android:id="@+id/etPasswordLogin"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:gravity="center"
+                android:textColorHint="@color/negro"
+                android:hint="Ingrese Contraseña"
+                android:inputType="textPassword" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50px" />
+
+            <Button
+                android:id="@+id/btLogIn"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:background="@drawable/button_bg"
+                android:text="Iniciar" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50px" />
+
+            <TextView
+                android:id="@+id/tvRecuperarPassword"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Olvido su contraseña? Recuperela!"
+                android:textColor="@color/colorPrimary" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50px" />
+
+            <TextView
+                android:id="@+id/tvRegistrarUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¿No tiene una cuenta? Registrese!"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

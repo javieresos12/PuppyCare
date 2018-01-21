@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lista"
+    android:paddingTop="@dimen/margen_superior_lista"
+    tools:context="co.com.bucompany.puppycare.DashboardActivity"
+    tools:showIn="@layout/dashboard_contenido"
+    android:scrollbars="vertical">
+
+</android.support.v7.widget.RecyclerView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.bucompany.puppycare.RegistroUsuarioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/negro"
+            android:text="Registrese"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/etUsuarioRe"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"
+            android:textColorHint="@color/negro"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Ingrese un usuario" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <EditText
+            android:id="@+id/etEmailRe"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Ingrese un email"
+            android:textColorHint="@color/negro"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/etContrasena"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"
+            android:textColorHint="@color/negro"
+            android:hint="Ingrese Contraseña"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/etReContrasena"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:hint="Repite contraseña"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColorHint="@color/negro"
+            android:background="@drawable/edittext_bg"
+            android:inputType="textPassword" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btRegistrar"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_bg"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Registrar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
